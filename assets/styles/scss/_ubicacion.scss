@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  
+  body {
+    background-color: rgb(247, 235, 241);
+  }
+  
+  @font-face {
+    font-family: "danimile";
+    src: url("/assets/fonts/Jost-VariableFont_wght.ttf") format("woff2");
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    background-color: #f8c9dc;
+  }
+  
+  .nav-link {
+    color: #b024c9;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 25px;
+    padding: 15px;
+  }
+  
+  .nav-link:hover {
+    color: #550a55;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  header {
+    background-color: rgb(252, 165, 216);
+  }
+
+
+  .direccion {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .direccion a {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+  }
+  
+  .direccion i {
+    margin-right: 5px;
+    font-size: 20px;
+    color: #007bff;
+  }
+
+
+
+ 
+  
+  
+  @media (max-width: 992px) {
+    .content {
+      width: 45%;
+    }
+  }
+  @media (max-width: 600px) {
+    .content {
+      width: 100%;
+    }
+  }

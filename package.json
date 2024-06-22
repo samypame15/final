@@ -1,0 +1,23 @@
+{
+  "name": "sasssii",
+  "version": "1.0.0",
+  "description": "trabajo final",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samypame15/final.git"
+  },
+  "keywords": [
+    "scss",
+    "sass"
+  ],
+  "author": "samypame15",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samypame15/final/issues"
+  },
+  "homepage": "https://github.com/samypame15/final#readme"
+}

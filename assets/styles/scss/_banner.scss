@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Roboto Black';
+    src: url('/assets/fonts/Roboto-Black.ttf') format("truetype");
+  }
+  
+  .banner {
+    
+        height: 39vh;
+        font-size: 22px;
+        background-image: url(/assets/multimedia/images-banner-desktop.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 10px;
+      }
+
+   
+  .banner h2 {
+    font-family: sans-serif;
+    font-size: 2em;
+    color: rgb(174, 75, 95);
+    padding: 10px;
+    margin-bottom: 10px;
+
+  }
